@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    height: 100%;
+}
+
+.main {
+    height: 100%;
+}
+
+.sidenav {
+    height:100%;
+    width: 25rem;
+    background-color: #eee;
+    border-style: solid;
+    border-color: #bbb;
+    border-width: 0;
+    border-right-width: 2px;
+    float: left;
+}
+
+.content {
+    height: 100%;
+    overflow: auto;
+}
+
+.content p {
+    text-align: center;
+}
