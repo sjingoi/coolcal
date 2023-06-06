@@ -1,15 +1,16 @@
 import { useState } from 'react'
 import MainContent from './components/MainContent'
 import Sidebar from './components/Sidebar'
+import './app.css'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <MainContent/>
+    <div style={{height: '100vh'}}>
       <Sidebar/>
-    </>
+      <MainContent/>
+    </div>
   )
 }
 

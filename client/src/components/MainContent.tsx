@@ -1,7 +1,10 @@
+import './MainContent.css'
+import Calendar from './calendar/Calendar'
+
 function MainContent() {
     return (
         <div className="content">
-            <p>CoolCal</p>
+            <Calendar/>
         </div>
     )
 }

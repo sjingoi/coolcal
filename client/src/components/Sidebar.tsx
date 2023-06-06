@@ -1,7 +1,9 @@
+import './Sidebar.css'
+
 function Sidebar() {
     return (
-        <div className="sidenav">
-
+        <div className="sidebar">
+            <p>Hello</p>
         </div>
     )
 }

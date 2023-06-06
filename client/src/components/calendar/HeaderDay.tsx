@@ -4,11 +4,11 @@ interface Props {
     name: String
 }
 
-function Day(props: Props) {
+function HeaderDay(props: Props) {
     return (
-        <div className="day">
+        <div className="header-day">
             <p>{props.name}</p>
         </div>
     )
 }
-export default Day
+export default HeaderDay
